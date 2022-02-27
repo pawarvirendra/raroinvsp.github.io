@@ -1,0 +1,128 @@
+.container{
+     max-width:1310px;
+     margin:0px auto;
+}
+.carousel-inner img {
+    width: 100% !important;
+    height: 100% !important;
+ }
+.carousel-caption {
+    left:3% !important;
+	right:10% !important;
+}
+.top_head{
+	background-color:#f4f4f2;
+	/* height:80px; */
+}
+.book img{
+	width:27px;
+	height:27px;
+}
+.head_ul li{
+	font-size:var(--font-size-13);
+}
+.head_ul a{
+	color:var(--text_color);
+	font-weight:bold;
+}
+.sponser{
+	font-size:9px;
+	font-weight:var(--font-weight-600);
+	color:#918e8e;
+}
+.slider_icon{
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+.slider_icon i{
+	color:var(--text_color);
+	font-size:var(--font-size-24);
+}
+.feedback{
+     position:fixed;
+     bottom:3px;
+     right:14px;
+}
+.feedback a{
+     background:var(--headtext_color);
+}
+.nav_ul a{
+	color:var(--headtext_color);
+	font-weight:bold;
+}
+.nav_ul a:hover{
+	text-decoration:underline;
+}
+.dd{
+	display:none;
+}
+/* ------------------------------ width and height ---------------------------------------- */
+.card_w-1 img{
+	width:85px;
+	min-height:75px;
+}
+.mx_h-99{
+	max-height:99px !important;
+}
+.img_text{
+	max-height:95.5px !important;
+}
+.card_div, .s_border{
+	border: solid #dfdfdd;
+    border-width: 0 1px 1px 0;
+}
+.wh-22{
+	width:22px;
+	height:22px;
+}
+.sign_img img{
+     width:35px;
+}
+.card_w-1{
+	min-width:85px;
+	height:75px;
+}
+.card_w-2{
+	max-width:400px;
+}
+.li_img img{
+	width:27px;
+}
+.pencil img{
+	width:13px;
+}
+.li_img{
+	border-right:1px solid #dfdfdd;
+}
+.car_s{
+	min-height:364px !important;
+	max-height:364px !important;
+	filter:brightness(0.8);
+}
+.slide_img{
+	width:100%;
+	min-height:249px;
+	filter:brightness(0.8);
+}
+.times{
+	max-width:16px !important;
+	max-height:16px !important;
+}
+.border-b{
+	padding-bottom:11px;
+	border-bottom:1px solid #dfdfdd;
+}
+.slide_div{
+	height:258px;
+}
+.input-group-text{
+	background-color:var(--search-bg-color);
+}
+.card_div, .live{
+	height:297.17px;
+}
+.edit{
+	top:14px;
+	right:0px;
+}

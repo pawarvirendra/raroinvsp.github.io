@@ -1,0 +1,79 @@
+@media (max-width:1200px){
+	.main_container{
+		max-width:100%;
+		padding:0 15px;
+	}
+	.head2_data{
+	width:110%;
+    }
+	.bg_img{
+		height: 270px;
+	}
+}
+@media (max-width:991px){
+	.main_container{
+		max-width:100%;
+		padding:0 15px;
+	}
+	.head2_data{
+	width:100% !important;
+    }
+	.about_follow{
+		width:60%;
+        margin:0 auto;
+	}
+	.toggle_svg{
+		display:block;
+	}
+	
+}
+@media (max-width:768px){
+	.main_container{
+		max-width:100%;
+		padding:0 15px;
+	}
+	.bell,.eth_part,.create_btn {
+		display:none !important;
+	}
+	.tab_slide{
+		max-width: 30rem !important;
+        margin: 0 auto;
+	}
+	.about_follow{
+		width:100% !important;
+	}
+	.Profile_section{
+		display:block !important;
+	}
+	.profile_right{
+		margin-top:55px;
+	}
+	:root {
+    --mt_100:70px;
+	}
+	.main_section {
+    padding-bottom: 70px;
+}
+	
+}
+@media (max-width:575px){
+	.main_container{
+		max-width:100%;
+		padding:0 15px;
+	}
+	.copy_btn{
+		width:100%;
+	}
+	.tab_slide{
+		width: 100% !important;
+        margin: 0 auto;
+	}
+	.profile_right{
+		width:100%;
+	    display:block !important;
+	}
+	.Collection{
+		display:none;
+	}
+	
+}

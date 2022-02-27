@@ -1,0 +1,112 @@
+
+body{
+    font-family: arial;
+    /* background-color:#f4f4f2; */
+   /* --bg_font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+	font-size: 17px;
+    letter-spacing: 0.3px;
+	color:var(--co_black);
+    background: var(--bg_body);
+}
+@font-face {
+    font-family: arial ;
+    src: url(../fonts/ARIAL.woff);
+}
+/* @font-face { */
+    /* font-family: circular; */
+    /* src: url(../Gilroy-Regular); */
+/* } */
+
+:root {
+    --mt_100:100px;
+	--co_green:rgb(0, 255, 170);
+    --co_black:#183b56;
+	--co_blue:#566ffe;
+    --co_white:#ffffff;
+    --co_light:#6f7d95;
+    --co_red:#ff6871;
+    --co_dgreen:#36b37e;
+	
+	--bg_darkblue:#566ffe;
+    --bg_gray:rgba(255, 255, 255, 0.123);
+	--bg_white:#ffffff;
+    --bg_sky:#e2eef1;
+    --bg_button:#183b56;
+    --bg_body: #ecf1f9;
+    --fs_15:15px;
+	--fs_17: 17px;
+    --fs_16:16px;
+    --fs_18:18px;
+    --fw_bold:bold;
+}
+.active{
+	background:var(--bg_black);
+	color:var(--white);
+}
+.px_12{
+    padding: 12px;
+}
+.pt_100{
+    padding-top: var(--mt_100);
+}
+.ml_19{
+    margin-left: -21px;
+}
+.fw_bold{
+    font-weight: bold;
+}
+.plr_12{
+	padding:0 12px!;
+}
+.co_dgreen{
+    color: var(--co_dgreen);
+}
+.co_red{
+    color: var(--co_red);
+}
+.co_green{
+	color:var(--co_green);
+}
+.co_black{
+	color:var(--co_black);
+}
+.co_blue{
+	color:var(--co_blue);
+}
+.co_light{
+    color: var(--co_light);
+}
+.bg_darkblue{
+	background-color:var(--bg_darkblue);
+}
+.bg_gray{
+	background-color:var(--bg_gray);
+}
+.bg_white{
+    background-color: var(--bg_white);
+}
+.bg_sky{
+    background-color: var(--bg_sky);
+}
+.bg_button{
+    background-color: var(--bg_button);
+}
+.fs_15{
+    font-size: var(--fs_15);
+}
+.fs_16{
+	font-size:15.5px;
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_23{
+	font-size:23px;
+}
+.ls_1{
+	letter-spacing:1px;
+}
+.b_sky{
+    border:1px solid #e2eef1;
+}
+/*svg toggle css*/
