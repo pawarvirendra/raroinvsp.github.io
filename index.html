@@ -256,7 +256,7 @@
                        <a href="javascript:void(0)" class="btn fs_15 bg_darkblue rounded-pill">Create</a>
                    </div>
 				   <div class="toggle_svg">
-			      <svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+			      <svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')" data-toggle="collapse" data-target="#res_header">
 					  <path
 							class="line top"
 							d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
@@ -281,7 +281,7 @@
   </header>
   <!--toggle content header-->
   
-      <div class="responsive_header bg_white d-none">
+      <div class="responsive_header bg_white collapse fade" id="res_header">
       <div class="res_menu">
 	    <ul class="list-unstyled">
 		            <li class="mb-3"><a href="javascript:void(0)" class="co_black text-decoration-none fs_16 ls_1">Marketplace</a></li>

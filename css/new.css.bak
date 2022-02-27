@@ -51,9 +51,6 @@
 	padding:40px;
 	border-radius:10px;
 	margin-top:4px;
-	position: absolute;
-    width: 100%;
-    z-index: 1000;
 }
 .res_menu_button a{
 	padding:8px 15px;
